@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>CRO in China Biostatistics and Data Management in Clinical Trials</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link href="css/all.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<link href="images/CSSe.css" rel="stylesheet" type="text/css">
+</head>
+<body bgcolor="#FFFFFF" onLoad="MM_preloadImages('images/BANNER-NEW-2E_01.gif','images/BANNER-NEW-2E_02.gif','images/BANNER-NEW-2E_03.gif','images/BANNER-NEW-2E_04.gif','images/BANNER-NEW-2E_05.gif','images/BANNER-NEW-2E_06.gif','images/BANNER-NEW-2E_07.gif','images/BANNER-NEW-2E_08.gif')">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center"><table width="963" height="190" border="0" align="center" cellpadding="0" cellspacing="0" id="__01">
+      <tr>
+        <td height="137" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="left" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <div class="banner">
+                                                    <img src="images/logo2222.png" width="592" height="136" border="0" usemap="#Map2" style="float: right; display: block;">
+                                                    <img src="images/logo3333.png" width="592" height="136" border="0" usemap="#Map" style="float: right; display: block; margin-top: 20px; position: absolute; right: 0;">
+                                                    <a href="chinese/ours.html" target="_self" style="display: block; width: 70px; height: 17px; position: absolute; border: none 0; right: 2px; top: 25px;"></a>
+                                                    <a href="japan/ours.html" target="_self" style="display: block; width: 70px; height: 17px; position: absolute; border: none 0; right: 2px; top: 45px;"></a>
+                                                </div>
+                  </tr>
+              </table></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="20"><img src="chinese/images/BANNER_03.jpg" alt="" width="962" height="19"></td>
+      </tr>
+      <tr>
+        <td height="27"><table border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td><a href="index.htm" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E01','images/BANNER-NEW-2E_01.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E01','images/BANNER-NEW-2E_01.gif','images/BANNER-NEW-2E_01.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_01.gif" alt="" name="BANNERNEW1E01" border="0" onload="" width="96" height="26"></a></td>
+              <td><a href="aboutus.html" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E02','images/BANNER-NEW-2E_02.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E02','images/BANNER-NEW-2E_02.gif','images/BANNER-NEW-2E_02.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_02.gif" alt="" name="BANNERNEW1E02" border="0" onload="" width="105" height="26"></a></td>
+              <td><a href="ourservices.html" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E03','images/BANNER-NEW-2E_03.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E03','images/BANNER-NEW-2E_03.gif','images/BANNER-NEW-2E_03.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_03.gif" alt="" name="BANNERNEW1E03" border="0" onload="" width="122" height="26"></a></td>
+              <td><a href="ourexperience.html" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E04','images/BANNER-NEW-2E_04.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E04','images/BANNER-NEW-2E_04.gif','images/BANNER-NEW-2E_04.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_04.gif" alt="" name="BANNERNEW1E04" border="0" onload="" width="140" height="26"></a></td>
+              <td><a href="ourteam.html" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E05','images/BANNER-NEW-2E_05.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E05','images/BANNER-NEW-2E_05.gif','images/BANNER-NEW-2E_05.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_05.gif" alt="" name="BANNERNEW1E05" border="0" onload="" width="102" height="26"></a></td>
+              <td><a href="oursystems.html" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E06','images/BANNER-NEW-2E_06.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E06','images/BANNER-NEW-2E_06.gif','images/BANNER-NEW-2E_06.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_06.gif" alt="" name="BANNERNEW1E06" border="0" onload="" width="116" height="26"></a></td>
+              <td><a href="job.html" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E07','images/BANNER-NEW-2E_07.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E07','images/BANNER-NEW-2E_07.gif','images/BANNER-NEW-2E_07.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_07.gif" alt="" name="BANNERNEW1E07" border="0" onload="" width="163" height="26"></a></td>
+              <td><a href="contactus.html" target="_top" onClick="MM_nbGroup('down','group1','BANNERNEW1E08','images/BANNER-NEW-2E_08.gif',1)" onMouseOver="MM_nbGroup('over','BANNERNEW1E08','images/BANNER-NEW-2E_08.gif','images/BANNER-NEW-2E_08.gif',1)" onMouseOut="MM_nbGroup('out')">
+              <img src="images/BANNER-NEW-1E_08.gif" alt="" name="BANNERNEW1E08" border="0" onload="" width="117" height="26"></a></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/index_10.jpg" alt="" width="963" height="5"></td>
+      </tr>
+    </table>
+      <map name="Map2">
+        <area shape="rect" coords="525,24,595,45" href="chinese/ours.html">
+      </map></td>
+  </tr>
+  <tr>
+    <td align="center"><table width="960" border="0" cellspacing="0" cellpadding="0">
+      <tr align="right">
+        <td colspan="2"><img src="images/tupian.jpg" width="962" height="24"></td>
+      </tr>
+      <tr>
+        <td height="390" colspan="2"><table width="100%" height="100%"  border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td align="center" valign="top" background="images/bg.jpg"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                    <tr align="center" valign="top"> 
+                      <td height="310"> <table width="83%"  border="0" cellspacing="0" cellpadding="0">
+                          <tr> 
+                            <td width="1%" height="123" rowspan="2">　</td>
+                            <td width="75%" rowspan="2"><div align="left"> 
+                                <p class="unnamed1"><font color="5F5F5F" face="Arial"><strong>Overview</strong></font></p>
+                                <p class="p_a">IX Pharmaceutical team is the market leader in real-world and late phase research. We provide services and technologies focused on evaluating the safety, effectiveness, efficacy, value, and quality of healthcare products, therapies, and services. Our teams have designed, developed, and managed an industry-leading number of real-world and late phase studies, including many of the largest and most well-recognized programs for disease outcomes, comparative effectiveness, safety, and risk management.</p>
+                                <h4>What We Do</h4>
+                                <p class="p_b">Programs</p>
+                               <p style="font-family:Arial;color:#333;font-size:11pt;line-height:22px;">
+                                 ■Patient Registries of Products, Therapies, Diseases, and/or Services<br />
+ ■Post-Approval and Phase IV Studies<br />
+ ■Observational Studies<br />
+ ■Phase IIIb/Expanded Access<br />
+ ■Quality Measurement and Improvement Initiatives<br />
+ ■Benefit Risk Management/RiskMAPs/REMS<br />
+ ■Safety & Surveillance<br />
+ ■Health Outcomes/Health Economics<br />
+ ■Quality of Life/Patient Reported Outcomes<br />
+ ■Patient Retention (Adherence/Persistence/Compliance)<br />
+ ■Performance Tracking Systems<br />
+ ■Instrument Validation Studies<br />
+ ■Controlled Distribution Programs<br />
+ ■Health Interventions (e.g. Cluster Randomized Studies)<br />
+ ■Performance-Linked Access Systems<br /></p>
+ <p style="font-family:Arial;color:#333;font-size:11pt;line-height:22px;">
+<b class="p_b">Focus</b><br />
+ ■Products (Drug or Medical Device)<br />
+ ■Healthcare Services (Including Procedures)<br />
+ ■Diseases or Conditions<br />
+ ■Exposure<br />
+ </p>
+<h4>What We Offer </h4>
+<p style="font-family:Arial;color:#333;font-size:11pt;line-height:22px;">
+<b class="p_b">An Integrated Solution</b><br />
+ ■Unique Strategies, Solutions, Implementation, and Management<br />
+ ■Best in Class Scientific Consultation for Real-World and Late Phase Research<br />
+ ■Clinical Program Design<br />
+ ■Value-Based Technology<br />
+ ■Superior Customer Service<br />
+ ■Proven Robust Methodology<br />
+ ■Global Reach and Local Experience<br />
+ ■Strategic Partnerships<br />
+ </p>
+<h4>What IX Pharmaceutical  Can Do for You</h4>
+ <p style="font-family:Arial;color:#333;font-size:11pt;line-height:22px;">
+<b class="p_b">Get the Most from Your Study</b><br />
+ ■Generate knowledge (scientific presentations and publications)<br />
+ ■Demonstrate effectiveness or comparative effectiveness in appropriate populations<br />
+ ■Demonstrate efficacy<br />
+ ■Meet post-marketing commitments<br />
+ ■Generate evidence for coverage decisions<br />
+ ■Manage safety<br />
+ ■Generate data for labeling<br />
+ ■Change behavior<br />
+ ■Improve quality of care<br />
+ ■Prove product value through economic or quality of life benefits<br />
+ ■Bring scientific information to stakeholders sooner<br />
+ ■Personalize medicine<br />
+</p>
+                            </div></td>
+                            <td width="24%" align="center" valign="top">
+                            <img src="images/our-service2.jpg" longdesc="../../../../web/english/images/our-service2.jpg" width="179" height="252"></td>
+                          </tr>
+                          <tr> 
+                            <td height="65" align="center" valign="top">　</td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr> 
+                      <td height="29">　</td>
+                    </tr>
+                    <tr valign="bottom"> 
+                      <td height="78"><img src="images/home_08.jpg" width="961" height="26"></td>
+                    </tr>
+                    <tr> 
+                      <td><div align="center"><font color="5F5F5F" size="2">
+                        Copyright&copy;2019 The Shanghai IX Pharmaceutical Co. Ltd Inc. All rights reserved.</font></div></td>
+                    </tr>
+                  </table></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="22" colspan="2" valign="bottom">　</td>
+      </tr>
+      <tr>
+        <td width="740" align="right">　</td>
+        <td width="222" align="right">　</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<!-- End ImageReady Slices -->
+</body>
+</html>
